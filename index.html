@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBO RUBIK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div id="body-text">RESUELTO</div>
+    <div class="transform-value" id="transformValue">transform: rotateX(0deg) rotateY(0deg)</div>
+
+    <!--
+    <div class="cube-container" >
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>-->
+    <div class="test-container">
+        <div class="cube">
+        </div>
+    </div>
+    <button id="scramble" style="
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        font-size: 35px;
+        border: none;
+        background-color: rgb(132, 214, 132);
+        border-radius: 8px;
+        color: #fff;
+        display: block;
+        font-family: calibri;
+        ">SCRAMBLE</button>
+
+    <button id="reset" style="
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        font-size: 35px;
+        border: none;
+        background-color: #fff;
+        border-radius: 8px;
+        color: rgb(132, 214, 132);
+        display: none;
+        font-family: calibri;
+        ">RESET</button>
+
+    <p style="
+        position: absolute;
+        top: 4px;
+        left: 10px;
+        font-size: 40px;
+        font-family: calibri;" id="cronometro">0.000s</p>
+</body>
+</html>
+<script src="script.js"></script>
